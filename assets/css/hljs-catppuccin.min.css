@@ -1,0 +1,91 @@
+/*
+
+Catppuccin Mocha style by Jeffrey Serio <hyperreal@fedoraproject.org>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background-color: #181825;
+  padding: 1em;
+}
+
+.hljs-built_in,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-link {
+  color: #74c7ec;
+}
+
+.hljs-keyword {
+  color: #f5c2e7;
+}
+
+.hljs,
+.hljs-subst {
+  color: #a6adc8;
+}
+
+.hljs-title {
+  color: #89b4fa;
+}
+
+.hljs-attr,
+.hljs-meta-keyword {
+  font-style: italic;
+  color: #a6e3a1;
+}
+
+.hljs-type {
+  color: #89b4fa;
+}
+
+.hljs-string {
+  color: #a6e3a1;
+}
+
+.hljs-meta,
+.hljs-name,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #f2cdcd;
+}
+
+.hljs-addition {
+  color: #a6e3a1;
+}
+
+.hljs-deletion {
+  color: #f38ba8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #585b70;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-literal,
+.hljs-number {
+  color: #fab387;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
