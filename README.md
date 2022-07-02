@@ -19,3 +19,5 @@ generate-md --layout ./catppuccin --input ./input --output ./output
 ```
 
 The website is now available in the `./output` directory. Yay!
+
+To see a live instance, visit my website at [https://hyperreal.coffee](https://hyperreal.coffee) and my personal reference base at [https://techne.hyperreal.coffee](https://techne.hyperreal.coffee)
