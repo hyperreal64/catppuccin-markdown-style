@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>{{title}}</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/coffee.svg">
+    <link type="text/css" rel="stylesheet" href="{{asset 'css/catppuccin-markdown.css'}}">
+    <link type="text/css" rel="stylesheet" href="{{asset 'css/pilcrow.css'}}">
+    <link type="text/css" rel="stylesheet" href="{{asset 'css/hljs-catppuccin.min.css'}}"/>
+  </head>
+  <body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gaming.html">Gaming</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://techne.hyperreal.coffee">Techne</a></li>
+            <li><a href="vauxite.html">Vauxite</a></li>
+        </ul>
+    </div>
+    <article class="markdown-body">
+      {{~> content}}
+    <hr>
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> &copy; Jeffrey Serio<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </article>
+  </body>
+</html>

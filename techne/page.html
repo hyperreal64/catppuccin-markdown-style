@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>{{title}}</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/tools.svg">
+    <link type="text/css" rel="stylesheet" href="{{asset 'css/catppuccin-markdown.css'}}">
+    <link type="text/css" rel="stylesheet" href="{{asset 'css/pilcrow.css'}}">
+    <link type="text/css" rel="stylesheet" href="{{asset 'css/hljs-catppuccin.min.css'}}"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidenav">
+          <a class="index" href="index.html">Techne</a>
+          <a href="apt.html">APT</a>
+          <a href="caddy.html">Caddy web server</a>
+          <a href="find.html">Find</a>
+          <a href="jetforce.html">Jetforce Gemini server</a>
+          <a href="neovim.html">Neovim</a>
+          <a href="nmap.html">Nmap</a>
+          <a href="programming.html">Programming</a>
+          <a href="rocky.html">Rocky Linux</a>
+          <a href="shell.html">Shell magic</a>
+          <a href="vscode.html">VSCode</a>
+          <a href="windows.html">Windows</a>
+      </div>
+      <article class="markdown-body">
+        {{~> content}}
+      <hr>
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </article>
+    </div>
+  </body>
+</html>
